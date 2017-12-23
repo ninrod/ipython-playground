@@ -12,3 +12,12 @@
 #+BEGIN_SRC ipython :session mysession :exports both :results raw drawer
 !head -10 president_heights.csv
 #+END_SRC
+
+* plot test
+
+  #+BEGIN_SRC ipython :session mysession :exports both :results raw drawer
+    %matplotlib inline
+    import matplotlib.pyplot as plt
+    import numpy as np
+    plt.hist(np.random.randn(2000), bins=100)
+  #+END_SRC
