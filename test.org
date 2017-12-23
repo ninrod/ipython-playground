@@ -1,0 +1,8 @@
+* first test
+
+#+BEGIN_SRC ipython :session mysession :exports both :results raw drawer
+  def foo(x):
+      return x + 9
+
+  [foo(x) + 7 for x in range(7)]
+#+END_SRC
