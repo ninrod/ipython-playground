@@ -21,3 +21,13 @@
     import numpy as np
     plt.hist(np.random.randn(2000), bins=100)
   #+END_SRC
+
+* excel test
+
+  #+BEGIN_SRC ipython :session mysession :exports both :results raw drawer
+    import pandas as pd
+    dfs = pd.read_excel("valores.xlsx", sheetname=None)
+    print(dfs["main"])
+    total = dfs['main']['valor'].sum()
+    print(total)
+  #+END_SRC
