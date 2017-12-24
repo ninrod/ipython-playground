@@ -29,5 +29,5 @@
     dfs = pd.read_excel("valores.xlsx", sheet_name=None)
     print(dfs["main"])
     total = dfs['main']['valor'].sum()
-    print(total)
+    print('total = ' + str(total))
   #+END_SRC
