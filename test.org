@@ -26,7 +26,7 @@
 
   #+BEGIN_SRC ipython :session mysession :exports both :results raw drawer
     import pandas as pd
-    dfs = pd.read_excel("valores.xlsx", sheetname=None)
+    dfs = pd.read_excel("valores.xlsx", sheet_name=None)
     print(dfs["main"])
     total = dfs['main']['valor'].sum()
     print(total)
