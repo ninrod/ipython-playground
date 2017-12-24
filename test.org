@@ -32,7 +32,6 @@
     print('total = ' + str(total))
   #+END_SRC
 
-
 * ods test
 
 #+BEGIN_SRC ipython :session mysession :exports both :results raw drawer
